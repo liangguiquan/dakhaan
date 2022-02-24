@@ -1,0 +1,78 @@
+@import './var.less';
+
+html {
+    height: 100%;
+    background-color: #fff;
+    color: @words;
+    font-size: 5.2083333333333333333333vw;  // 设计稿100px占的列数，以1920为标准
+    font-family: "Microsoft YaHei", "SimHei", "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+        color: @primary;
+    }
+}
+
+
+
+
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 13px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    background-clip: padding-box;
+    border-radius: 5px;
+    min-height: 28px;
+}
